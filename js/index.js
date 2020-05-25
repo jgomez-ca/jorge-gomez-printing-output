@@ -1,55 +1,37 @@
+//Variabe definition
+
 let a = 3;
 let b = 5;
 let c;
+let firstTask;
 
-let output;
-output = 'let a = 3;\n';
-output += 'let b = 5;\n';
-output += 'let c;\n';
-output += '----------\n';
-output += 'a + b = ' + (a + b) + '\n';
-output += 'a - b = ' + (a - b) + '\n';
-output += 'a * b = ' + (a * b) + '\n';
-output += 'a / b = ' + (a / b) + '\n';
-output += 'a % b = ' + (a % b) + '\n';
-output += 'a += b = ' + (a += b) + '\n';
-output += 'a -= b = ' + (a -= b) + '\n';
-output += 'a *= b = ' + (a *= b) + '\n';
-output += 'a /= b = ' + (a /= b) + '\n';
-output += 'a %= b = ' + (a %= b) + '\n';
-output += 'a == b = ' + (a == b) + '\n';
-output += 'a != b = ' + (a != b) + '\n';
-output += 'a > b = ' + (a > b) + '\n';
-output += 'a < b = ' + (a < b) + '\n';
-output += '!a && !c = ' + (!a && !c) + '\n';
-output += '!a || !c = ' + (!a || !c) + '\n';
+//Concatenation Process
 
-alert( output );
+firstTask = 'let a = 3;\n';
+firstTask += 'let b = 5;\n';
+firstTask += 'let c;\n';
+firstTask += '----------\n';
+firstTask += 'a + b = ' + (a + b) + '\n';
+firstTask += 'a - b = ' + (a - b) + '\n';
+firstTask += 'a * b = ' + (a * b) + '\n';
+firstTask += 'a / b = ' + (a / b) + '\n';
+firstTask += 'a % b = ' + (a % b) + '\n';
+firstTask += 'a += b = ' + (a += b) + '\n';
+firstTask += 'a -= b = ' + (a -= b) + '\n';
+firstTask += 'a *= b = ' + (a *= b) + '\n';
+firstTask += 'a /= b = ' + (a /= b) + '\n';
+firstTask += 'a %= b = ' + (a %= b) + '\n';
+firstTask += 'a == b = ' + (a == b) + '\n';
+firstTask += 'a != b = ' + (a != b) + '\n';
+firstTask += 'a > b = ' + (a > b) + '\n';
+firstTask += 'a < b = ' + (a < b) + '\n';
+firstTask += '!a && !c = ' + (!a && !c) + '\n';
+firstTask += '!a || !c = ' + (!a || !c) + '\n';
 
-//a + b
-//a - b
-//a * b
-//a / b
-//a % b
-//a += b
-//a -= b
-//a *= b
-//a /= b
-//a %= b
-//a == b
-//a != b
-//a > b
-//a < b
-//!a && !c 
-//!a || !c 
+//Printing through alert()
+alert( firstTask );
 
 
-alerted_value + 'a - b \n' + 'a * b \n' + 'a / b \n' + 'a % b \n' + 'a += b \n' + 'a -= b \n' + 'a *= b \n' + 'a /= b \n' + 'a %= b \n' + 'a == b \n' + 'a != b \n' + 'a > b \n' + 'a < b \n' + '!a && !c \n' + '!a || !c \n';
-
-console.log('a + b ${a+b}\n' + 'a - b \n' + 'a * b \n' + 'a / b \n' + 'a % b \n' + 'a += b \n' + 'a -= b \n' + 'a *= b \n' + 'a /= b \n' + 'a %= b \n' + 'a == b \n' + 'a != b \n' + 'a > b \n' + 'a < b \n' + '!a && !c \n' + '!a || !c \n');
-	
-	
-//alert("description of alerted_value: \n" + alerted_value );
 
 
 
@@ -62,4 +44,14 @@ console.log('a + b ${a+b}\n' + 'a - b \n' + 'a * b \n' + 'a / b \n' + 'a % b \n'
 //Assign output with gotten expression;
 //Print the output in JavaScript console.
 
+let firstName = 'Jorge';
+let lastName = 'Gomez';
+let email = 'gome0118@algonquinlive.com';
+let output;
+
+output = 'Hello!\n My name is ' + firstName + ' ' + lastName +'.\n You can contact me at ' + email + '. \n Thank you!';
+
+
+//Printing using the console
+console.log( output );
 
